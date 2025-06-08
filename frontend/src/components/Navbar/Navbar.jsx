@@ -19,10 +19,10 @@ const Navbar = ({ setShowLogin }) => {
     <div className='navbar'>
       <Link to='/'><img src="/logo.png" alt="" className='logo' /></Link>
       <ul className="navbar-menu">
-        <Link to='/' onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>Home</Link>
-        <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>menu</a>
-        <a href='#app-download' onClick={() => setMenu("mobile-app")} className={menu === "mobile-app" ? "active" : ""}>mobile-app</a>
-        <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>contact us</a>
+        <Link to='/' onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>主页</Link>
+        <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>菜单</a>
+        <a href='#app-download' onClick={() => setMenu("mobile-app")} className={menu === "mobile-app" ? "active" : ""}>移动程序</a>
+        <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>关于我们</a>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />

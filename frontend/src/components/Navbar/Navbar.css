@@ -3,13 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5ch;
 }
 
 .navbar .logo {
-    position: absolute;
-    top: -1vh;
-    width: 25vh;
+    width: 80px;
     border-radius: 50%;
 }
 

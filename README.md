@@ -98,9 +98,6 @@ text
 如有任何问题，请联系：
 
 项目维护者: udonkyatto
-
-邮箱: your-email@example.com
-
 感谢您对本项目的关注！🚀
 
 
